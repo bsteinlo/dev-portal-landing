@@ -108,6 +108,7 @@ input#mce-EMAIL {
 #mc_embed_signup input.email {
 	width: 38% !important;
 	display: inline-block !important;
+	margin-right: 2% !important;
 }
 
 #mc_embed_signup input.button {
