@@ -101,13 +101,13 @@ ul.footer_links a {
 Mail chimp
 *********** */
 input#mce-EMAIL {
-	height: 34px;
-	border: 1px solid #ccc;
+	height: 34px !important;
+	border: 1px solid #ccc !important;
 }
 
 input#mc-embedded-subscribe {
-	background-color: #346AA9;
-	vertical-align: bottom;
+	background-color: #346AA9 !important;
+	vertical-align: bottom !important;
 }
 
 /************
