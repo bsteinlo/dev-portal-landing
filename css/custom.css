@@ -111,7 +111,7 @@ input#mce-EMAIL {
 }
 
 #mc_embed_signup input.button {
-	display: inline-block;
+	display: inline-block !important;
 }
 
 input#mc-embedded-subscribe {
