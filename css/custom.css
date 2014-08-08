@@ -90,6 +90,19 @@ img.large_logo {
 	background-color: #4a7ab3;
 }
 
+.right {
+	float: right;
+	margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+
+	.right {
+		float: left;
+		margin-top: 15px;
+	}
+
+}
  
 /************
   footer
