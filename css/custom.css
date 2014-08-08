@@ -107,6 +107,11 @@ input#mce-EMAIL {
 
 #mc_embed_signup input.email {
 	width: 38% !important;
+	display: inline-block !important;
+}
+
+#mc_embed_signup input.button {
+	display: inline-block;
 }
 
 input#mc-embedded-subscribe {
