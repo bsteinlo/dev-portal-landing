@@ -26,7 +26,12 @@ a:hover {
 }
 
 .jumbotron p {
- 	font-size: 16px;
+ 	font-size: 14px;
+	font-weight: 400; 	
+}
+
+.main_callout {
+	padding-top:10px;
 }
 
 .join {
@@ -56,12 +61,21 @@ img.large_logo {
 	border-color: #346AA9;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #346AA9;
+}
+
+.navbar-collapse {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
 	color: #fff;
 }
 
 .navbar-brand {
-	padding: 10px;
+	padding: 8px 10px 10px 10px;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
@@ -164,5 +178,11 @@ ul.resources {
 	background: #f5f5f5;
 	padding-bottom: 15px;
 	margin: 22px 0;
+}
+
+@media (max-width: 992px) {
+	.description.highlight {
+		padding-top: 10px;
+	}
 }
 
