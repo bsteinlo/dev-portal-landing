@@ -112,6 +112,9 @@ input#mce-EMAIL {
 
 #mc_embed_signup input.button {
 	display: inline-block !important;
+	height: 34px !important;
+	width: 20% !important;
+	font-weight: 300 !important;
 }
 
 input#mc-embedded-subscribe {
